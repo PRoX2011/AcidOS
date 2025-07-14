@@ -2,7 +2,7 @@
 [ORG 0x0100]
 
 ProgramMain:
-        mov     ax, 0x13
+        mov     ax, 0x12
         int     0x10
 
         call    InitMouse
